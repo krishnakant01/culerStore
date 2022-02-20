@@ -2,115 +2,115 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CulerStore</title>
-    <link rel="stylesheet" href="https://culer-ui.netlify.app/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CulerStore</title>
+  <link rel="stylesheet" href="https://culer-ui.netlify.app/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav class="nav-container">
-          <div class="mobile-nav-toggle" aria-controls="nav-link-list" aria-expanded="false">
-            <span class="sr-only">Menu</span>
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+  <header>
+    <nav class="nav-container">
+      <div class="mobile-nav-toggle" aria-controls="nav-link-list" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+
+      <div class="nav-logo">
+        <a href="/">
+          <div class="nav-title">
+            <span class="bold-font blue-text">Culer</span><span class="bold-font red-text">Store</span>
           </div>
-    
-          <div class="nav-logo">
-            <a href="/">
-              <div class="nav-title">
-                <span class="bold-font blue-text">Culer</span><span class="bold-font red-text">Store</span>
-              </div>
+        </a>
+      </div>
+
+      <div class="nav-links">
+        <ul class="nav-link-list" id="nav-link-list" data-visible="false">
+          <a href="/index.html">
+            <li class="nav-link-list-item">Home</li>
+          </a>
+
+          <a href="/boots.html">
+            <li class="nav-link-list-item">Boots</li>
+          </a>
+
+          <a href="/kits.html">
+            <li class="nav-link-list-item">Football Kits</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="search-bar">
+        <button class="btn btn-search" type="submit"><i class="far fa-search"></i></button>
+        <input type="text" placeholder="Search" id="search-input" class="search-input padding-075-1">
+      </div>
+
+      <div class="nav-social-links">
+        <ul>
+
+          <li class="social-link-list-items">
+            <button class="btn btn-text-primary padding-05-1" id="nav-btn-login">Sign In</button>
+          </li>
+
+          <li class="social-link-list-items">
+            <a href="#">
+              <span>
+                <span class="badge-container">
+                  <span class="nav-btns"><i class="material-icons">favorite_border</i></span>
+                  <span class="status-badge status-text">0</span>
+                </span>
+              </span>
             </a>
-          </div>
-    
-          <div class="nav-links">
-            <ul class="nav-link-list" id="nav-link-list" data-visible="false">
-                <a href="/index.html">
-                    <li class="nav-link-list-item">Home</li>
-                  </a>
-    
-              <a href="#">
-                <li class="nav-link-list-item">Boots</li>
-              </a>
-    
-              <a href="#">
-                <li class="nav-link-list-item">Football Kits</li>
-              </a>
-            </ul>
-          </div>
-    
-          <div class="search-bar">
-            <button class="btn btn-search" type="submit"><i class="far fa-search"></i></button>
-            <input type="text" placeholder="Search" id="search-input" class="search-input padding-075-1">
-          </div>
-    
-          <div class="nav-social-links">
-            <ul>
-    
-              <li class="social-link-list-items">
-                <button class="btn btn-text-primary padding-05-1" id="nav-btn-login">Sign In</button>
-              </li>
-    
-              <li class="social-link-list-items">
-                <a href="#">
-                  <span>
-                    <span class="badge-container">
-                      <span class="btn"><i class="material-icons">favorite_border</i></span>
-                      <span class="status-badge status-text">0</span>
-                    </span>
-                  </span>
-                </a>
-              </li>
-    
-              <li class="social-link-list-items">
-                <a href="#">
-                  <span class="badge-container">
-                    <span class="btn"><i class="material-icons">shopping_bag</i></span>
-                    <span class="status-badge status-text">0</span>
-                  </span>
-                </a>
-              </li>
-    
-            </ul>
-          </div>
-        </nav>
-      </header>
-    
+          </li>
 
-    <div class="flex-center-screen">
+          <li class="social-link-list-items">
+            <a href="#">
+              <span class="badge-container">
+                <span class="nav-btns"><i class="material-icons">shopping_bag</i></span>
+                <span class="status-badge status-text">0</span>
+              </span>
+            </a>
+          </li>
 
-        
-        <div class="auth-container light-gradient-card">
-            <h2 class="h2">SIGN UP</h2>
-            
-            <div>
-                <input type="text" class="form-field" placeholder="Full name" id="name" required>
-            </div>
-            <div>
-                <input type="email" class="form-field" placeholder="Email" id="email" required>
-            </div>
-            
-            <div class="input-password-container">
-                <input type="password" class="form-field" placeholder="Password" id="password" required>
-                <span class="btn-eye"><i class="fas fa-eye-slash"></i></span>
-            </div>
-            <button class="btn btn-contained-primary btn-login" type="submit" id="btn-signup">Sign Up</button>
-        
-            <p>Already have an account?<button class="btn-link" id="signup-pg-btn-login">Login here</button>
-            </p>
-        </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="flex-center-screen">
+
+
+    <div class="auth-container light-gradient-card">
+      <h2 class="h2">SIGN UP</h2>
+
+      <div>
+        <input type="text" class="form-field" placeholder="Full name" id="name" required>
+      </div>
+      <div>
+        <input type="email" class="form-field" placeholder="Email" id="email" required>
+      </div>
+
+      <div class="input-password-container">
+        <input type="password" class="form-field" placeholder="Password" id="password" required>
+        <span class="btn-eye"><i class="fas fa-eye-slash"></i></span>
+      </div>
+      <button class="btn btn-contained-primary btn-login" type="submit" id="btn-signup">Sign Up</button>
+
+      <p>Already have an account?<button class="btn-link" id="signup-pg-btn-login">Login here</button>
+      </p>
     </div>
+  </div>
 
-    <script src="signup.js"></script>
+  <script src="signup.js"></script>
 
 </body>
 

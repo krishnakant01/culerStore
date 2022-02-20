@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CulerStore | Boots</title>
+    <link rel="stylesheet" href="https://culer-ui.netlify.app/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <div class="mobile-nav-toggle" aria-controls="nav-link-list" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <div class="nav-logo">
+                <a href="/">
+                    <div class="nav-title">
+                        <span class="bold-font blue-text">Culer</span><span class="bold-font red-text">Store</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <ul class="nav-link-list" id="nav-link-list" data-visible="false">
+                    <a href="/index.html">
+                        <li class="nav-link-list-item">Home</li>
+                    </a>
+
+                    <a href="/boots.html">
+                        <li class="nav-link-list-item">Boots</li>
+                    </a>
+
+                    <a href="/kits.html">
+                        <li class="nav-link-list-item">Football Kits</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="search-bar">
+                <button class="btn btn-search" type="submit"><i class="far fa-search"></i></button>
+                <input type="text" placeholder="Search" id="search-input" class="search-input padding-075-1">
+            </div>
+
+            <div class="nav-social-links">
+                <ul>
+
+                    <li class="social-link-list-items">
+                        <button class="btn btn-text-primary padding-05-1" id="nav-btn-login">Sign In</button>
+                    </li>
+
+                    <li class="social-link-list-items">
+                        <a href="#">
+                            <span>
+                                <span class="badge-container">
+                                    <span class="nav-btns"><i class="material-icons">favorite_border</i></span>
+                                    <span class="status-badge status-text">0</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="social-link-list-items">
+                        <a href="#">
+                            <span class="badge-container">
+                                <span class="nav-btns"><i class="material-icons">shopping_bag</i></span>
+                                <span class="status-badge status-text">0</span>
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="outest-grid-container">
+
+        <div class="sidebar-container">
+
+            <div class="padding-075-1">
+
+                <div class="filter-titles">
+                    <p class="gray-text bold-font">FILTERS</p>
+                    <button class="btn-link font-size-09">CLEAR ALL</button>
+                </div>
+
+                <div class="divider"></div>
+
+                <ul class="filter-section padding-0-0 margin-0-0 list-style-none">
+
+                    <li>
+                        <p class="gray-text bold-font font-size-09 margin-0-0">SORT</p>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="radio" name="sort" value="Price-High-to-Low">Price High
+                            to Low</label>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="radio" name="sort" value="Price-Low-to-High">Price Low
+                            to High</label>
+                    </li>
+
+                    <div class="divider"></div>
+
+                    <li>
+                        <p class="gray-text bold-font font-size-09 margin-0-0">BRAND</p>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="nike">Nike</label>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="adidas">Adidas</label>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="puma">Puma</label>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="underarmour">Under Armour</label>
+                    </li>
+
+                    <div class="divider"></div>
+
+                    <li>
+                        <p class="gray-text bold-font font-size-09 margin-0-0">MODEL</p>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="nemeziz">Nemeziz</label>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="predator">Predator</label>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="adidasx">Adidas X</label>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="mercurial">Mercurial</label>
+                    </li>
+
+                    <div class="divider"></div>
+
+                    <li>
+                        <p class="gray-text bold-font font-size-09 margin-0-0">OTHER</p>
+                    </li>
+
+                    <li>
+                        <label class="font-size-09"><input class="accent-color" type="checkbox" value="Include-Out-of-Stock">Include Out of
+                            Stock</label>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <section class="main-container">
+
+            <div class="grid-4-column-layout margin-2-auto">
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="/images/adidas-nemeziz-0.3-fg.png" alt="product-image">
+                        <span class="text-badge badge-primary">New</span>
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Adidas Nemeziz 0.3</p>
+                    <p class="product-price">₹ 7500</p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="/images/adidas-predator-freak-fg.png" alt="product-image">
+                        <span class="text-badge badge-secondary padding-05-1">35% off</span>
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Adidas Predator Freak</p>
+                    <p class="product-price">₹ 6500 <span class="font-weight-400 text-strike-through red-text">₹10000</span></p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="/images/adidas-x-19.1-sg.png" alt="product-image">
+                        <span class="text-badge badge-primary">New</span>
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Adidas X Speedflow</p>
+                    <p class="product-price">₹ 5000</p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="/images/adidas-x-speedflow.png" alt="product-image">
+
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Adidas X Speedflow</p>
+                    <p class="product-price">₹ 6000</p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="https://culer-store.netlify.app/images/nike-phantom-gt-II-pro-fg.png" alt="product-image">
+                        <span class="text-badge badge-primary">New</span>
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Nike Phantom Pro</p>
+                    <p class="product-price">₹ 9600</p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="https://culer-store.netlify.app/images/puma-ultra-sl-tech-origin-gf.png" alt="product-image">
+
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Puma Ultra Origin</p>
+                    <p class="product-price">₹ 4000</p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="https://culer-store.netlify.app/images/puma-future-z-1.2-mg.png" alt="product-image">
+
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Puma Future Z</p>
+                    <p class="product-price">₹ 4500</p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+                <div class=" card product-card text-badge-container">
+                    <div class="product-image badge-container">
+                        <img src="https://culer-store.netlify.app/images/nike-phantom-gt-II-elite-fg.png"
+                            alt="product-image">
+                        <span class="text-badge badge-secondary padding-05-1">25% off</span>
+                        <button class="btn btn-wishlist"><span class="material-icons">
+                                favorite_border
+                            </span></button>
+                    </div>
+                    <p class="product-name">Nike Phantom Elite</p>
+                    <p class="product-price">₹ 7500 <span class="font-weight-400 text-strike-through red-text">₹10000</span></p>
+                    <button class=" btn btn-contained-primary btn-add-to-cart">
+                        <span><i class="fas fa-shopping-cart"> </i>
+                            Add to Cart</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
