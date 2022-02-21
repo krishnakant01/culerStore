@@ -1,0 +1,52 @@
+.flex-center-screen {
+    margin: 5rem auto;
+    max-width: 25rem;
+}
+
+.auth-container {
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.auth-container:hover {
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.form-field {
+    width: 100%;
+}
+
+.btn-login {
+    margin-top: 1rem;
+}
+
+.h2 {
+
+    text-align: center;
+    color: var(--color-darker-gray);
+}
+
+.input-password-container {
+    position: relative;
+}
+
+.btn-eye {
+    color: var(--color-dark-gray);
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 30em) {
+
+    .flex-center-screen {
+        margin: 2rem 1rem;
+    }
+}

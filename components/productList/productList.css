@@ -1,0 +1,31 @@
+.filter-titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    background-color: var(--color-gray);
+    height: 0.5px;
+    margin: 0.75rem 0rem;
+}
+
+.filter-section li {
+    padding: 0.5rem 0rem;
+}
+
+.accent-color {
+    accent-color: var(--color-barcelona-red);
+}
+
+@media screen and (max-width: 60em) {
+
+    /*------ Temporarily------ */
+
+    .sidebar-container {
+        height: 5rem;
+    }
+
+    .main-container {
+        padding: 1rem;
+    }
+}
