@@ -49,6 +49,6 @@
     }
 
     #nav-btn-login {
-        display: none;
+       font-size: 0.8rem;
     }
 }

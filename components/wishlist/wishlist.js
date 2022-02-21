@@ -5,7 +5,7 @@ wishlistTemplate.innerHTML = `
 <div class="display-flex">
         <p class="bold-font font-size-125">My Wishlist <span class="font-weight-400">(5) Item(s)</span></p>
     </div>
-    <div class="grid-4-column-layout margin-2-auto">
+    <div class="grid-4-column-layout margin-2-auto padding-1-1">
 
         <div class=" card product-card text-badge-container">
             <div class="product-image badge-container">
