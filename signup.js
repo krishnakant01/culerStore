@@ -1,11 +1,3 @@
-const SignupPageLoginButton = document.querySelector("#signup-pg-btn-login");
-
-SignupPageLoginButton.addEventListener("click", () => {
-
-    window.location.href = "login.html";
-
-});
-
 const btnEye = document.querySelector(".btn-eye");
 const eyeIcon = document.querySelector(".btn-eye i");
 const input = document.querySelector("#password");
