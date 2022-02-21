@@ -40,6 +40,21 @@ FC Barcelona 🔵🔴 football apparels for all the Culers out there.
 
 Authentication Pages
 
+![image](https://user-images.githubusercontent.com/63720159/154940655-be5dc23e-9371-429e-9122-4e27c46514b6.png)
+![image](https://user-images.githubusercontent.com/63720159/154940699-a1766637-26a7-4b60-809e-6b5a8a306cd0.png)
+
+Home Page
+
+![image](https://user-images.githubusercontent.com/63720159/154940761-9f2df5af-ea80-4b72-9c36-0b7504523cf8.png)
+
+Product Listing Page
+
+![image](https://user-images.githubusercontent.com/63720159/154940836-8331af89-14d4-48a4-b7a2-75e764a59fc8.png)
+
+Wishlist and Cart Page
+
+![image](https://user-images.githubusercontent.com/63720159/154940921-deeb468f-1c15-456f-88fc-c68875b050eb.png)
+![image](https://user-images.githubusercontent.com/63720159/154940968-a75a42f9-2596-44f6-bc85-0ed5c33b0a25.png)
 
 
 
