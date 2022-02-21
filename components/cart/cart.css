@@ -1,0 +1,20 @@
+.grid-2-column-layout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.cart-products-container {
+    gap: 1rem;
+}
+
+.bill-container {
+    min-width: 15rem;
+    width: 25rem;
+}
+
+.green-text {
+    color: var(--color-alert-succes-text);
+}
