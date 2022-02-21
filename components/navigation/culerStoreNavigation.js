@@ -73,3 +73,45 @@ navTemplate.innerHTML = `
 `;
 
 document.body.appendChild(navTemplate.content);
+
+const navLinks = document.querySelector("#nav-link-list");
+const navToggle = document.querySelector(".mobile-nav-toggle");
+
+const line1 = document.querySelector(".line1");
+const line2 = document.querySelector(".line2");
+const line3 = document.querySelector(".line3");
+
+navToggle.addEventListener("click", () => {
+    const visibility = navLinks.getAttribute("data-visible");
+
+    if (visibility === "false") {
+
+        navLinks.setAttribute("data-visible", true);
+        navToggle.setAttribute("aria-expanded", true);
+        document.body.style.overflow = "hidden";
+        document.body.style.background = " rgba(0, 0, 0, 0.4)";
+
+        line1.classList.add("translate");
+        line2.classList.add("rotate-135deg");
+        line3.classList.add("rotate-45deg");
+    } else {
+        navLinks.setAttribute("data-visible", false);
+        navToggle.setAttribute("aria-expanded", false);
+        document.body.style.overflow = "visible";
+        document.body.style.background = "none";
+
+        line1.classList.remove("translate");
+        line2.classList.remove("rotate-135deg");
+        line3.classList.remove("rotate-45deg");
+    }
+});
+
+let resizeTimer;
+window.addEventListener("resize", () => {
+    document.body.classList.add("resize-animation-stopper");
+  
+    resizeTimer = setTimeout(() => {
+        document.body.classList.remove("resize-animation-stopper");
+        clearTimeout(resizeTimer);
+    }, 400);
+});
