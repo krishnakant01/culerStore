@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CulerStore | My Cart</title>
+    <link rel="stylesheet" href="https://culer-ui.netlify.app/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <div class="mobile-nav-toggle" aria-controls="nav-link-list" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <div class="nav-logo">
+                <a href="/">
+                    <div class="nav-title">
+                        <span class="bold-font blue-text">Culer</span><span class="bold-font red-text">Store</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <ul class="nav-link-list" id="nav-link-list" data-visible="false">
+                    <a href="/index.html">
+                        <li class="nav-link-list-item">Home</li>
+                    </a>
+
+                    <a href="/boots.html">
+                        <li class="nav-link-list-item">Boots</li>
+                    </a>
+
+                    <a href="/kits.html">
+                        <li class="nav-link-list-item">Football Kits</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="search-bar">
+                <button class="btn btn-search" type="submit"><i class="far fa-search"></i></button>
+                <input type="text" placeholder="Search" id="search-input" class="search-input padding-075-1">
+            </div>
+
+            <div class="nav-social-links">
+                <ul>
+
+                    <li class="social-link-list-items">
+                        <a href="/login.html"><button class="btn btn-text-primary padding-05-1" id="nav-btn-login">Sign
+                                Out</button></a>
+                    </li>
+
+                    <li class="social-link-list-items">
+                        <a href="/wishlist.html">
+                            <span>
+                                <span class="badge-container">
+                                    <span class="nav-btns" id="nav-wishlist"><i
+                                            class="material-icons">favorite_border</i></span>
+                                    <span class="status-badge status-text">5</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="social-link-list-items">
+                        <a href="cart.html">
+                            <span class="badge-container">
+                                <span class="nav-btns"><i class="material-icons">shopping_bag</i></span>
+                                <span class="status-badge status-text">3</span>
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="display-flex">
+        <p class="bold-font font-size-125">My Cart <span class="font-weight-400">(3) Item(s)</span></p>
+    </div>
+
+    <div class="grid-2-column-layout padding-075-1">
+
+        <div class="cart-products-container padding-075-1 display-flex-column">
+
+            <div class="my-cart-product-card">
+                <div class="my-cart-product-image-div">
+                    <img src="/images/adidas-x-19.1-sg.png" alt="product-image">
+                </div>
+                <div class="my-cart-product-description-div">
+                    <p class="product-name">Adidas X 19.1 SG</p>
+                    <h4 class="product-price">₹ 4000</h4>
+                    <label for="size">Size:</label>
+                    <select name="size" id="size">
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <div class="quantity-btns">
+                        <button class="horizontal-card-btn">-</button>
+                        <span class="quantity">1</span>
+                        <button class="horizontal-card-btn">+</button>
+                    </div>
+                </div>
+                <div class="product-card-btns-div">
+                    <button id="delete-btn"><span class="material-icons">delete</span></button><br>
+                    <button class="btn btn-text-secondary wishlit-btn">MOVE TO WISHLIST</button>
+                </div>
+            </div>
+
+            <div class="my-cart-product-card">
+                <div class="my-cart-product-image-div">
+                    <img src="/images/adidas-nemeziz-0.3-fg.png" alt="product-image">
+                </div>
+                <div class="my-cart-product-description-div">
+                    <p class="product-name">Adidas Nemeziz 0.3</p>
+                    <h4 class="product-price">₹ 7000</h4>
+                    <label for="size">Size:</label>
+                    <select name="size" id="size">
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <div class="quantity-btns">
+                        <button class="horizontal-card-btn">-</button>
+                        <span class="quantity">1</span>
+                        <button class="horizontal-card-btn">+</button>
+                    </div>
+                </div>
+                <div class="product-card-btns-div">
+                    <button id="delete-btn"><span class="material-icons">delete</span></button><br>
+                    <button class="btn btn-text-secondary wishlit-btn">MOVE TO WISHLIST</button>
+                </div>
+            </div>
+
+            <div class="my-cart-product-card">
+                <div class="my-cart-product-image-div">
+                    <img src="https://culer-ui.netlify.app/images/men-away-kit-jersey.png" alt="">
+                </div>
+                <div class="my-cart-product-description-div">
+                    <p class="product-name">Men Home Kit Jersey</p>
+                    <h4 class="product-price">Rs. 4000</h4>
+                    <label for="size">Size:</label>
+                    <select name="size" id="size">
+                        <option value="small">S</option>
+                        <option value="medium">M</option>
+                        <option value="large">L</option>
+                        <option value="x-large">XL</option>
+                    </select>
+                    <div class="quantity-btns">
+                        <button class="horizontal-card-btn">-</button>
+                        <span class="quantity">1</span>
+                        <button class="horizontal-card-btn">+</button>
+                    </div>
+                </div>
+                <div class="product-card-btns-div">
+                    <button id="delete-btn"><span class="material-icons">delete</span></button><br>
+                    <button class="btn btn-text-secondary wishlit-btn">MOVE TO WISHLIST</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bill-container padding-075-1 display-flex-column">
+
+            <div class="address-container box-shadow padding-1-1">
+
+                <button class="btn btn-icon-primary"><span><i class="fas fa-plus"></i> Add Delivery Address</span>
+                </button>
+
+            </div>
+
+            <div class="box-shadow padding-075-1 margin-1-0">
+            
+                <div class="filter-titles">
+                    <p class="gray-text bold-font">PRICE DETAILS</p>
+                </div>
+    
+                <div class="divider"></div>
+    
+                <ul class="filter-section padding-0-0 margin-0-0 list-style-none">
+    
+                    <li class="display-flex space-between">
+                        <p class="font-size-09 margin-0-0">Total MRP</p>
+                        <p class="font-size-09 margin-0-0">₹ 15000</p>
+                    </li>
+
+                    <li class="display-flex space-between">
+                        <p class="font-size-09 margin-0-0">Discount on MRP</p>
+                        <p class="font-size-09 margin-0-0 green-text">₹ 800</p>
+                    </li>
+
+                    <li class="display-flex space-between">
+                        <p class="font-size-09 margin-0-0">Delivery Charges</p>
+                        <p class="font-size-09 margin-0-0"><span class="text-strike-through">₹ 100</span> <span class="green-text">FREE</span></p>
+                    </li>
+
+                    <div class="divider"></div>
+
+                    <li class="display-flex space-between">
+                        <p class="bold-font margin-0-0">Total Amount</p>
+                        <p class="bold-font margin-0-0">₹ 13200</p>
+                    </li>
+
+                    <li class=" margin-1-auto display-flex"><button class="btn btn-contained-primary">Place Order</button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Made with ♥️ by Krishnakant Singh</p>
+        <ul class="footer-links">
+          <li class="social-link-list-items"><a href="mailto: singhkrishnakant3@gmail.com"><i
+                class='fas fa-envelope'></i></a>
+          </li>
+          <li class="social-link-list-items "><a href="https://github.com/krishnakant01" target="_blank"><i
+                class='fab fa-github'></i></a></li>
+          <li class="social-link-list-items"><a href="https://twitter.com/krishnakant_01" target="_blank"><i
+                class='fab fa-twitter'></i></a></li>
+          <li class="social-link-list-items"><a href="https://www.linkedin.com/in/krishnakant-singh-333450193/"
+              target="_blank"><i class='fab fa-linkedin-in'></i></a></li>
+        </ul>
+        <p class="footer-copyright">&copy; All Rights Reserved.</p>
+      </div>
+
+</body>
+
+</html>
