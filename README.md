@@ -4,7 +4,6 @@
 Culer Store is a mobile responsive e-commerce webApp for
 FC Barcelona 🔵🔴 football apparels for all the Culers out there.
 
-(Except home page all the pages are responsive)
 ## Authors
 
 - [@krishnakant01](https://www.github.com/krishnakant01)
